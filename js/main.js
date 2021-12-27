@@ -1,6 +1,7 @@
 /*
 Minimal theme switcher
 */
+'use strict';
 
 const themeSwitcher = {
     //Config

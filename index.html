@@ -23,6 +23,7 @@
 </head>
 
 <body>
+<!-- Nav to choose the color theme -->    
 <div data-theme="auto">
     <nav class="container-fluid">
         <ul>
@@ -56,11 +57,18 @@
         </div>
         <!-- Button -->
         <div class="grid">
-            <div><button>About</button></div>
+            <div><button class="show-modal">About</button></div>
             <div><button>Projects</button></div>
             <div><button>Contact</button></div>
         </div>  
     </article>
+
+    <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+
+    </div>
+    <div class="overlay hidden"></div>
+
 </main>   
 </body>
 </html>
