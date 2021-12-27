@@ -50,3 +50,34 @@ hgroup{
 .grid{
     align-items: center;
 }
+
+img{
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+}
+
+figure {
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+}
+figure figcaption {
+  padding: calc(var(--spacing) * 0.5) 0;
+  color: var(--muted-color);
+  text-align: right;
+}
+
+figure {
+  margin-top: 0;
+  margin-bottom: var(--typography-spacing-vertical);
+  color: var(--color);
+  font-style: normal;
+  font-weight: var(--font-weight);
+  font-size: var(--font-size);
+}
