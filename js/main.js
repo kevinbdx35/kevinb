@@ -32,4 +32,3 @@ const themeSwitcher = {
 };
 
 themeSwitcher.init();
-
