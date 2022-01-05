@@ -81,3 +81,7 @@ figure {
   font-weight: var(--font-weight);
   font-size: var(--font-size);
 }
+
+.pointer{
+  cursor: pointer;
+}
