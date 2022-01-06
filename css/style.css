@@ -5,7 +5,7 @@
   --primary: #00897b;
   --primary-hover: #00796b;
   --primary-focus: rgba(0, 137, 123, 0.125);
-  --primary-inverse: #FFF;
+  --primary-inverse: #fff;
 }
 
 /* Teal Dark scheme (Auto) */
@@ -15,7 +15,7 @@
     --primary: #00897b;
     --primary-hover: #009688;
     --primary-focus: rgba(0, 137, 123, 0.25);
-    --primary-inverse: #FFF;
+    --primary-inverse: #fff;
   }
 }
 
@@ -25,7 +25,7 @@
   --primary: #00897b;
   --primary-hover: #009688;
   --primary-focus: rgba(0, 137, 123, 0.25);
-  --primary-inverse: #FFF;
+  --primary-inverse: #fff;
 }
 
 /* Teal (Common styles) */
@@ -37,21 +37,21 @@
 }
 
 /* Cirle for picture */
-.portrait{
-    clip-path: circle(30% at 50% 50%);
+.portrait {
+  clip-path: circle(30% at 50% 50%);
 }
 
 /* Align the text */
-hgroup{
-    text-align: center;
+hgroup {
+  text-align: center;
 }
 
 /* Align the grid */
-.grid{
-    align-items: center;
+.grid {
+  align-items: center;
 }
 
-img{
+img {
   vertical-align: middle;
 }
 
@@ -82,6 +82,6 @@ figure {
   font-size: var(--font-size);
 }
 
-.pointer{
+.pointer {
   cursor: pointer;
 }
