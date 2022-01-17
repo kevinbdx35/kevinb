@@ -88,5 +88,9 @@ figure {
 .height_img {
   max-height: 300px;
   width: auto;
-  margin: 5px;
+  margin: 5px auto;
+}
+
+article .center_img{
+  justify-self: center;
 }
