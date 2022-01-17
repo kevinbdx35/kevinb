@@ -85,3 +85,7 @@ figure {
 .pointer {
   cursor: pointer;
 }
+ .height_img{
+   max-height: 300px;
+   width:auto;
+ }
